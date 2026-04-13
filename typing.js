@@ -184,6 +184,8 @@ startButton.addEventListener("click", () => {
 
   function startGame() {
     isPlaying = true;
+    input.value = "";
+  input.focus();
     nextWord ();
   }
   function nextWord() {
