@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(32, 186, 225);
+  color: #0f2a07;
+  width: 500px;
+  margin-right: auto;
+  margin-left:  auto;
+}
+
+ button {
+  padding: 5px 20px;
+  background-color: #dbe4d8;
+  color:rgb(6, 5, 5);
+  font-weight: 700;
+ }
+
+ input {
+  height: 70px;
+  font-size: 30px;
+  white-space: normal;
+  width:400px;
+ }
