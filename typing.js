@@ -1,6 +1,6 @@
 'use strict';
 const input = document.getElementById('Enword');
-const typingButton     = document.getElementById('typing');
+const startButton = document.getElementById("start");
 const words = [
   "abandon",
   "ability",
@@ -178,13 +178,9 @@ const words = [
 ];
 let currentWord        = "";
 let isPlaying          = false
-input.addEventListener(
-  "keydown",
-  (event) => {
-    if (event.key === "Enter" && !isPlaying) {
-      startGame();
-    }
-  });
+startButton.addEventListener("click", () => {
+  startGame();
+});
 
   function startGame() {
     isPlaying = true;
